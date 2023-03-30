@@ -1,0 +1,266 @@
+/* Write your CSS here */
+
+.latest-match-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.latest-match-main-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-main-card {
+    flex-direction: row;
+  }
+}
+
+.competing-team-image-container {
+  background-color: #0f172a;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 2px solid #475569;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-image-container {
+    width: 65%;
+    border-top-right-radius: 0px;
+    border-bottom: none;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    margin-right: 0px;
+    border-left: 0px;
+  }
+}
+
+.competing-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.competing-team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team {
+    font-size: 35px;
+  }
+}
+
+.match-date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-date {
+    font-size: 28px;
+  }
+}
+
+.venue {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .venue {
+    font-size: 16px;
+  }
+}
+
+.match-result-latest {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .match-result-latest {
+    font-size: 16px;
+  }
+}
+
+.competing-team-logo {
+  height: 80px;
+  width: 60px;
+  margin-left: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    height: 220px;
+    width: 180px;
+    margin-left: 7px;
+  }
+}
+
+.matches-details-container {
+  background-color: #0f172a;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .matches-details-container {
+    width: 35%;
+    border-bottom-right-radius: 10px;
+    border-bottom: none;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    padding: 20px;
+    align-items: flex-end;
+    margin-left: 0px;
+    border-left: 0px;
+  }
+}
+
+.first-innings-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .first-innings-heading {
+    font-size: 22px;
+    text-align: end;
+  }
+}
+
+.first-innings {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .first-innings {
+    font-size: 16px;
+    text-align: end;
+  }
+}
+
+.second-innings-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .second-innings-heading {
+    font-size: 22px;
+    text-align: end;
+  }
+}
+
+.second-innings {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .second-innings {
+    font-size: 16px;
+    text-align: end;
+  }
+}
+
+.man-of-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .man-of-heading {
+    font-size: 22px;
+    text-align: end;
+  }
+}
+
+.man-of-match {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .man-of-match {
+    font-size: 16px;
+    text-align: end;
+  }
+}
+
+.umpires-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .umpires-heading {
+    font-size: 22px;
+    text-align: end;
+  }
+}
+
+.umpires {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .umpires {
+    font-size: 16px;
+    text-align: end;
+  }
+}
